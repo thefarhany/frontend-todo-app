@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useAuthStore } from "../stores/authStore";
 import { Link, useNavigate } from "react-router-dom";
-import { Button } from "@/components/ui/Button";
-import { Input } from "@/components/ui/Input";
-import { Label } from "@/components/ui/Label";
+import { Button } from "@/components/ui/button.jsx";
+import { Input } from "@/components/ui/input.jsx";
+import { Label } from "@/components/ui/label.jsx";
 import { motion } from "framer-motion";
 import { toast } from "sonner";
 import usePageTitle from "../hooks/usePageTitle";
