@@ -2,7 +2,7 @@ import axios from "axios";
 import { useAuthStore } from "../stores/authStore";
 
 const API = axios.create({
-  baseURL: "https://backend-todo.up.railway.app/",
+  baseURL: "https://backend-todo.up.railway.app/api",
   withCredentials: true,
 });
 
