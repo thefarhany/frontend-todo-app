@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useTodoStore } from "../stores/todoStore";
-import { Button } from "@/components/ui/Button";
-import TodoList from "../components/layouts/dashboard/TodoList";
-import TodoModal from "@/components/layouts/dashboard/TodoModal";
+import { Button } from "@/components/ui/button.jsx";
+import TodoList from "@/components/layouts/dashboard/TodoList.jsx";
+import TodoModal from "@/components/layouts/dashboard/TodoModal.jsx";
 import { useAuthStore } from "../stores/authStore";
 import { toast } from "sonner";
 import { useNavigate } from "react-router-dom";
